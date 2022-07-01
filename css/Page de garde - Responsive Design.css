@@ -1,0 +1,43 @@
+/* Appareils extra petits (Téléphones, 600px et moin) */
+
+@media only screen and (max-width: 600px) {
+    section.top-page {
+        height: 30vh;
+    }
+}
+
+
+/* Petit appareil (tablettes en mode portrait et grand téléphone, 600px et plus) */
+
+@media only screen and (min-width: 600px) {
+    section.top-page {
+        height: 60vh;
+    }
+}
+
+
+/* Appareil moyens (tablettes paysage, 768px et plus) */
+
+@media only screen and (min-width: 768px) {
+    section.top-page {
+        height: 60vh;
+    }
+}
+
+
+/* Large devices (Ordinateurs portables/de bureau, 992px et plus) */
+
+@media only screen and (min-width: 992px) {
+    section.top-page {
+        height: 90vh;
+    }
+}
+
+
+/* Appareil extra large (grands ordinateurs portables et ordinateur de bureau, 1200px et plus) */
+
+@media only screen and (min-width: 1200px) {
+    section.top-page {
+        height: 90vh;
+    }
+}

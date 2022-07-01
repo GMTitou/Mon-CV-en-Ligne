@@ -1,0 +1,116 @@
+/* Les imports de police pour l'ecriture (police internet) */
+
+@import url(https:://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+/* tete de page */
+
+header.header1 {
+    display: flex;
+    /* evite que le texte s'affiche sous le logo */
+    align-items: center;
+    /* centre le texte au niveau du logo */
+    background-color: black;
+}
+
+header.header1 img {
+    width: 7.9vw;
+    /* Taille du logo */
+}
+
+section.top-page {
+    background: url('../images/background/arriere_plan.jpg') no-repeat top center;
+    /* implementation de l'arriere plan (l'image d'ordinateur) sur le site*/
+    background-size: cover;
+    /* taille de l'arriere plan pour qu'il face la taille de la fenetre */
+    height: 90vh;
+    /* largeur de la de l'arriere plan*/
+}
+
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 5.2vw 2.6vw;
+    /* Place  le texte à Y=100px et X=50px (0 = haut de page)*/
+    justify-content: space-between;
+}
+
+.big-title {
+    color: white;
+    font-size: 3.9vw;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    /* Rend la police plus fine 'Abril FatFace' */
+}
+
+.big-title2 {
+    color: white;
+    text-align: center;
+    font-size: 2.08vw;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+}
+
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    /* flex permet d'aligner le menu de navigation  */
+    justify-content: space-between;
+    /* on definit une barre transparente qui permets d'étaler les éléments de navigation*/
+    list-style: none;
+    /* none supprime les alinéas avant chaque élément de navigation */
+    background-color: transparent;
+    width: 80em;
+    margin-left: 6.5em;
+    /* on definit sa couleur, sa longueur et sa marge avec le logo (l'espace entre le logo et le debut de la barre)*/
+}
+
+nav.nav li {
+    color: white;
+    font-size: 1.3vw;
+    /* couleur de la partie nav en blanc */
+}
+
+
+/* Fin de page */
+
+footer.footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 3.125em;
+    height: 5%;
+    align-items: center;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+}
+
+nav.groupe-contact {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: transparent;
+    width: 65vw;
+    margin-left: 12.48vw;
+    margin-top: -0.832vw;
+}
+
+nav.groupe-contact li {
+    color: white;
+    font-size: 1.3vw;
+}

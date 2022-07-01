@@ -1,0 +1,76 @@
+/* Les imports de police pour l'ecriture (police internet) */
+
+@import url(https:://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+header.header2 {
+    display: flex;
+    align-items: center;
+    background: url('../images/banniere/banniere_formation.jpg');
+    background-size: cover;
+}
+
+header.header2 img {
+    width: 7.9vw;
+}
+
+.page-formation {
+    background: url('../images/background/arriere_plan_formation-paysage.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Formations {
+    color: white;
+    font-size: 2.08vw;
+    margin-left: 0.832vw;
+}
+
+.landing-page {
+    color: white;
+    padding: 22.464vw 2.6vw;
+}
+
+.ecole {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+footer.footer {
+    background-color: black;
+    position: absolute;
+    bottom: -7vw;
+    width: 100%;
+    padding-top: 2.6vw;
+    height: 5%;
+    align-items: center;
+}
+
+nav.groupe-contact {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: transparent;
+    width: 90vw;
+    height: 1.3vw;
+    margin-left: 6vw;
+    margin-top: -0.832vw;
+}
+
+nav.groupe-contact li {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+}

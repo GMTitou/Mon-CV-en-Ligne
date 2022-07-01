@@ -1,0 +1,118 @@
+@import url(https:://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+/* Général */
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin: 0 auto;
+}
+
+section.top-page {
+    background: url('../images/background/arriere_plan_Realisation.jpg') no-repeat top center;
+    background-size: cover;
+    height: 135vh;
+}
+
+
+/* En-tête */
+
+header.header3 {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+header.header3 img {
+    width: 7.9vw;
+    /* Taille du logo */
+}
+
+.Realisation {
+    color: black;
+    font-size: 2.08vw;
+    margin-left: 0.832vw;
+}
+
+
+/* Centre de la page */
+
+.landing-page {
+    color: black;
+    font-size: 0.8vw;
+}
+
+.img {
+    float: left;
+    width: 15vw;
+    padding: 2vw 2vw;
+}
+
+.date {
+    font-size: 0.75vw;
+}
+
+.text1 {
+    padding-top: 3vw;
+}
+
+.text {
+    font-size: 1vw;
+}
+
+.text-center {
+    padding-top: 0.5vw;
+}
+
+.lien {
+    color: black;
+    text-decoration: none;
+    clear: both;
+}
+
+.projet2 {
+    padding: 0vw 12.5vw;
+    width: 8vw;
+}
+
+.text2 {
+    clear: both;
+    padding-left: 3vw;
+}
+
+
+/* Bas de page */
+
+footer.footer {
+    background-color: black;
+    position: absolute;
+    bottom: -24vw;
+    width: 100%;
+    padding-top: 2.6vw;
+    height: 5%;
+    align-items: center;
+}
+
+nav.groupe-contact {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: transparent;
+    width: 90vw;
+    height: 1.3vw;
+    margin-left: 6vw;
+    margin-top: -0.832vw;
+}
+
+nav.groupe-contact li {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+}
